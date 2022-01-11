@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title> Registration Form </Title>
+    </head>
+    <body style="background-color: rebeccapurple;">
+        <h2 style="text-align: center;"> Registration Form </h2>
+        <form>
+            <fieldset style="background-color: aquamarine;">
+            <legend style="background-color:aquamarine;">Personal Information</legend><br>
+            First Name: <input type="text" name="firstname"><br><br>
+            Last Name: <input type="text" name="lastname"><br><br>
+            Gender: <input type="radio" name=gender>Male 
+                    <input type="radio" name=gender>Female <br><br>
+            Birthday: <input type="date" name="bday"><br><br>
+            </fieldset><br>
+            <fieldset style="background-color: darkseagreen;"> 
+            <legend style="background-color: darkseagreen;">Residential Address</legend><br>
+            Mobile Number: <input type="phone" name="phone"><br><br>
+            Email: <input type="email" name="mail"><br><br>
+            
+            Address: <textarea cols="30" rows="7"></textarea><br><br>
+            State: <select name="State">
+                <option>Select</option>
+                <option>Andhra Pradesh</option>
+                <option>Telangana</option>
+                <option>Tamil Nadu</option>
+                <option>Karnataka</option>
+                <option>Maharashtra</option>
+                <option>West Bengal</option>
+                <option>Gujarat</option>
+                <option>Goa</option>
+                   </select><br><br>
+            </fieldset><br>
+            <fieldset style="background-color: blueviolet;">
+            <legend>Other Information</legend>
+            Languages: <input type="checkbox" name="languages">English
+                <input type="checkbox" name="languages">Telugu
+                <input type="checkbox" name="languages">Hindi
+                <input type="checkbox" name="languages">Kanada
+                <input type="checkbox" name="languages">Tamil
+                <input type="checkbox" name="languages">Marathi <br><br>
+            Hobbies: <select name="Hobbies" multiple="multiple">
+                <option>Coding</option>
+                <option>Gaming</option>
+                <option>Reading</option>
+                <option>Cricket</option>
+                <option>Writing</option>
+                <option>Dancing</option>
+            </select>
+            <p><b>Hold ctrl while selecting hobbies.</b></p>
+            </fieldset><br>
+            <input type="submit" name="Submit">
+            <input type="reset" name="Reset">
+
+            <input type="password" name="Password">
+
+
+        </form>
+    </body>
+</html>
